@@ -1,16 +1,77 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 10px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    a {
+      display: block;
+      text-align: center;
+      color: #0073b1; /* LinkedIn blue */
+      text-decoration: none;
+      margin-bottom: 20px;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    section {
+      background-color: #fff;
+      padding: 15px;
+      margin: 10px auto;
+      border-radius: 8px;
+      max-width: 600px;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <!-- Profile Image -->
+  <img src="https://via.placeholder.com/150" alt="Profile Picture">
+
+  <!-- Name -->
+  <h1>Er. Surjeet Kumar</h1>
+
+  <!-- LinkedIn Profile -->
+  <a href="https://www.linkedin.com/in/surjeetkumar8/" target="_blank">Connect with me on LinkedIn</a>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>MERN Stack, Node.js, React.js, Express.js, MongoDB, Java, DSA, Docker, Kubernetes, AWS</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>LinkedIn Clone</li>
+      <li>IT Institute Management System</li>
+      <li>Zoom Clone</li>
+      <li>Airbnb Clone</li>
+    </ul>
+  </section>
 
 </body>
-
 </html>
